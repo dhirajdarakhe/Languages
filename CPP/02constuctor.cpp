@@ -31,6 +31,13 @@ int main()
     // 2 ) default copy constructor invoked .
     // Transportation X;
     // X = T;
+    //  To handle this case
+    // we have to make use of operator overloading
+
+    //  → when we create &
+    // copy in same line > then copy
+    // constructor invoked , but assignment copy
+    // constructor doesn't invoked
     
     return 0;
 }

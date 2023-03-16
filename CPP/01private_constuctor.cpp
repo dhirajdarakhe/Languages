@@ -17,5 +17,6 @@ int main()
 {
     // Transportation T;
     // we can not create obj 
+    // we can declare obj but after decleration of obj we get error
     return 0;
 }
