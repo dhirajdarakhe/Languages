@@ -6,8 +6,8 @@ using namespace std;
 class Car
 {
 public:
-    void Start() { cout << "Car started \n"; };
-    void Stop() { cout << "Car stopped\n"; }
+    virtual void Start() { cout << "Car started \n"; };
+    virtual void Stop() { cout << "Car stopped\n"; }
     ~Car() {}
 };
 class Innova : public Car
@@ -27,12 +27,16 @@ public:
 int main()
 {
     Car *c;
-    c = New Innova();
+    c = new Innova();
     c->Start();
     c->Stop();
-    c = New Swift();
+    c = new Swift();
     c->Start();
     c->Stop();
 
     return 0;
 }
+Innova started 
+Innova stopped
+Swift started
+Swift stopped

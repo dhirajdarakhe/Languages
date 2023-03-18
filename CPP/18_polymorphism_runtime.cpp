@@ -27,12 +27,16 @@ public:
 int main()
 {
     Car *c;
-    c = New Innova();
+    c = new Innova();
     c->Start();
     c->Stop();
-    c = New Swift();
+    c = new Swift();
     c->Start();
     c->Stop();
 
     return 0;
 }
+Car started 
+Car stopped
+Car started
+Car stopped
